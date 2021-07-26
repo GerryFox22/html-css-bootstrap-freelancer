@@ -14,3 +14,9 @@ li {
     text-decoration: none;
     color: white;
 }
+
+#jumbo {
+    color: white;
+    background-color: #009688;
+    height: 500px;
+}
