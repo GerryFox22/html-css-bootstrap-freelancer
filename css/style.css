@@ -15,7 +15,7 @@ li {
     color: white;
 }
 
-#jumbo {
+.green-container {
     margin-bottom: 50px;
     color: white;
     background-color: #009688;
@@ -31,4 +31,13 @@ li {
 
 #portfolio {
     margin-bottom: 50px;
+}
+
+.white-button {
+    width: 100px;
+    color: white;
+    border: 1px solid white;
+}
+.row > .white-button {
+    justify-content: center;
 }
