@@ -1,0 +1,16 @@
+
+
+nav{
+    background-color: #183d5a;
+    color: white;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+#navigator li a {
+    text-decoration: none;
+    color: white;
+}
