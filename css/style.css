@@ -16,7 +16,19 @@ li {
 }
 
 #jumbo {
+    margin-bottom: 50px;
     color: white;
     background-color: #009688;
     height: 500px;
+}
+
+.card-container {
+    border: 5px solid white;
+    background-color: green;
+    height: 200px;
+
+}
+
+#portfolio {
+    margin-bottom: 50px;
 }
