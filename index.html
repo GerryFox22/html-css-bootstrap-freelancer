@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
    <!-- Bootstrap Frameworks v5 -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    
@@ -16,8 +18,32 @@
 <body>
     <!-- Container -->
     <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-sm navbar-dark ">
+                <div class="container">
+                <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </div>
+            
 
-            <nav id="navigator" class="row ">
+            <!-- <nav id="navigator" class="row ">
         
                 <div class="d-flex col-12 justify-content-around align-items-baseline">
                    
@@ -34,30 +60,38 @@
 
                 </div>
 
-            </nav>
+            </nav> -->
 
             <section id="jumbo" class="row green-container">
 
                 <div class="col-12 text-center">
 
-                    <div class="row">
+                    <div class="row justify-content-center mt-5 mb-3">
 
                         <div class="logo">
-
+                            <img src="img/avatar.svg" alt="">
                         </div>
 
                     </div>
 
-                    <div class="row">
+                    <div class="row ">
 
                         <h1>START BOOTSTRAP</h1>
 
                     </div>
 
-                    <div class="row">
+                    <div class="row justify-content-center align-items-center mb-3">
+                        
+                        <div class="hr-star bg-white">
 
-                        <div class="hr-star">
-                            adsadaddadad
+                        </div>
+
+                        <div class="star">
+                            <i class="star-icon fas fa-star"></i>
+                        </div>
+
+                        <div class="hr-star bg-white">
+
                         </div>
 
                     </div>
@@ -80,47 +114,77 @@
             <section id="portfolio" class="container">
                 <div class="row"> 
 
-                
-
                     <div class="col-12 text-center">
 
-                        <div class="row">
+                        <div class="row pb-3">
 
-                            <h3>PORTFOLIO</h3>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="hr-star">
-                                adsadaddadad
-                            </div>
+                            <h2>PORTFOLIO</h2>
 
                         </div>
 
-                        <div class="row">
+                        <div class="row justify-content-center align-items-center mb-3">
+                        
+                            <div class="hr-star bg-black">
+    
+                            </div>
+    
+                            <div class="star">
+                                <i class="star-icon fas fa-star"></i>
+                            </div>
+    
+                            <div class="hr-star bg-black">
+    
+                            </div>
+    
+                        </div>
 
-                            <div class="card-container col-12 col-sm-6 col-lg-4">
+                        <div class="row gx-4 gy-4">
+
+                            <div class="col-12 col-sm-6 col-lg-4">
+
+                                <div class="card-container">
+                                    <img src="img/cabin.png" alt="">
+                                </div>
 
                             </div>
 
-                            <div class="card-container col-12 col-sm-6 col-lg-4">
+                            <div class="col-12 col-sm-6 col-lg-4">
+
+                                <div class="card-container">
+                                    <img src="img/cake.png" alt="">
+                                </div>
 
                             </div>
 
-                            <div class="card-container col-12 col-sm-6 col-lg-4">
+                            <div class="col-12 col-sm-6 col-lg-4">
+
+                                <div class="card-container">
+                                    <img src="img/circus.png" alt="">
+                                </div>
 
                             </div>
 
-                            <div class="card-container col-12 col-sm-6 col-lg-4">
+                            <div class="col-12 col-sm-6 col-lg-4">
+
+                                <div class="card-container">
+                                    <img src="img/game.png" alt="">
+                                </div>
 
                             </div>
 
-                            <div class="card-container col-12 col-sm-6 col-lg-4">
+                            <div class="col-12 col-sm-6 col-lg-4">
+
+                                <div class="card-container">
+                                    <img src="img/safe.png" alt="">
+                                </div>
 
                             </div>
 
-                            <div class="card-container col-12 col-sm-6 col-lg-4">
+                            <div class="col-12 col-sm-6 col-lg-4">
+
+                                <div class="card-container">
+                                    <img src="img/submarine.png" alt="">
+                                </div>
 
                             </div>
 
@@ -132,35 +196,43 @@
 
             </section>
 
-            <section id="about" class="container-fluid green-container">  
+            <section id="about" class="row justify-content-center align-items-center green-container pt-5 pb-5">  
 
-                <div class="container p-5">
+                <div class="col-10">
 
-                    <div class="row text-center">
+                    <div class="row text-center pb-3">
 
-                        <h3>ABOUT</h3>
+                        <h2>ABOUT</h2>
 
                     </div>
 
-                    <div class="row text-center">
+                    <div class="row text-center justify-content-center align-items-center mb-4">
+                        
+                        <div class="hr-star bg-white">
 
-                        <div class="hr-star">
-                            adsadaddadad
+                        </div>
+
+                        <div class="star">
+                            <i class="star-icon fas fa-star"></i>
+                        </div>
+
+                        <div class="hr-star bg-white">
+
                         </div>
 
                     </div>
 
 
-                    <div class="row">
+                    <div class="row justify-content-center pb-5">
 
-                        <div class="col-12 col-sm-6">
+                        <div class="col-10 col-sm-5 pb-3">
 
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odit a sed! Ducimus qui consequuntur praesentium? Nulla quaerat saepe, nam ipsa quibusdam eaque nisi nostrum sequi minima nesciunt delectus similique!</p>
 
                         </div>
 
                        
-                        <div class="col-12 col-sm-6">
+                        <div class="col-10 col-sm-5">
 
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odit a sed! Ducimus qui consequuntur praesentium? Nulla quaerat saepe, nam ipsa quibusdam eaque nisi nostrum sequi minima nesciunt delectus similique!</p>
 
@@ -171,7 +243,7 @@
 
                     <div class="row justify-content-center">
 
-                        <button type="button" class="btn white-button ">Primary</button>
+                        <button type="button" class="btn white-button ">Download</button>
 
                     </div>
 
@@ -180,82 +252,139 @@
 
             </section>
       
-            <section id="contact-me" class="container p-5" >
+            <section id="contact-me" class="container" >
+                <div class="row justify-content-center">
 
-                <div class="row text-center">
+               
+                    <div class="col-8 col-sm-11">
 
-                    <h3>CONTACT ME</h3>
+                        <div class="row text-center pb-4">
 
+                            <h2>CONTACT ME</h2>
+
+                        </div>
+
+                        <div class="row text-center justify-content-center align-items-center mb-4">
+                        
+                            <div class="hr-star bg-black">
+    
+                            </div>
+    
+                            <div class="star">
+                                <i class="star-icon fas fa-star"></i>
+                            </div>
+    
+                            <div class="hr-star bg-black">
+    
+                            </div>
+    
+                        </div>
+
+                        <form>
+                            <div class="mb-3">
+                              <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email Address">
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="form-floating pb-2">
+                                <textarea class="form-control" aria-placeholder="Message" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Message</label>
+                            </div>
+
+                            <button type="submit" class="bg-green-btn btn btn-primary">Send</button>
+                          </form>
+
+                        <!-- <form id="form" class="row">
+
+                            <div class="form-bar">
+                                <span>Name</span>
+                            </div>
+
+                            <div class="form-bar">
+                                <span>Email Address</span>
+                            </div>
+
+                            <div class="form-bar">
+                                <span>Phone Number</span>
+                            </div>
+
+                            <div id="message-form" class="form-bar">
+                                <span>Message</span>
+                            </div>
+                        
+                        </form>
+
+                        <div class="row">
+
+                            <button type="button" class="btn green-button">Send</button>
+                        
+                        </div> -->
+
+                    </div>
                 </div>
-
-                <div class="row text-center">
-
-                    <div class="hr-star">
-                        adsadaddadad
-                    </div>
-
-                </div>
-
-                <form id="form" class="row">
-
-                    <div class="form-bar">
-                        <span>Name</span>
-                    </div>
-
-                    <div class="form-bar">
-                        <span>Email Address</span>
-                    </div>
-
-                    <div class="form-bar">
-                        <span>Phone Number</span>
-                    </div>
-
-                    <div id="message-form" class="form-bar">
-                        <span>Message</span>
-                    </div>
-                
-                </form>
-
-                <div class="row">
-
-                    <button type="button" class="btn green-button">Send</button>
-                
-                </div>
-
-
             </section>
             
-            <footer id="footer" class="container-fluid">
+            <footer id="footer">
 
-                <div id="upper-footer" class="row justify-content-evenly align-items-center">
+                <div id="upper-footer" class="row text-white text-center justify-content-center pb-5">
                     
-                    <div class="col-12 col-sm-3">
+                    <div class="col-12 col-sm-3 pt-5">
 
                         <h4>LOCATION</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia fugiat fuga dolores quidem quae </p>
+                        <p>2215 John Danuel Drive Clark, MO <br>
+                        54243
+                        </p>
 
                     </div>
 
-                    <div class="col-12 col-sm-3">
+                    <div class="col-12 col-sm-3 pt-5">
 
-                        <h4>LOCATION</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia fugiat fuga dolores quidem quae </p>
+                        <h4>AROUND THE WEB</h4>
+
+                        <div class="footer-icons d-flex justify-content-center">
+                        
+                            <div class="single-icon me-3">
+                                <i class="icon-font  fab fa-facebook-f"></i>
+                            </div>
+
+                            <div class="single-icon me-3">
+                                <i class="icon-font fab fa-google-plus-g"></i>
+                            </div>
+
+                            <div class="single-icon me-3">
+                                <i class="icon-font fab fa-twitter"></i>
+                            </div>
+
+                            <div class="single-icon">
+                                <i class="icon-font fab fa-linkedin-in"></i>
+                            </div>
+
+                        </div>
+                        
 
                     </div>
 
-                    <div class="col-12 col-sm-3">
+                    <div class="col-12 col-sm-3 pt-5">
 
-                        <h4>LOCATION</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia fugiat fuga dolores quidem quae </p>
+                        <h4>ABOUT FREELANCER</h4>
+                        <p>Freelance is a free to use, open sourche <br>
+                        Bootstrap theme created by <a id="start-bootstrap" href="#"> Start <br>
+                        Bootstrap
+                        </a>.
+                        </p>
 
                     </div>
 
                 </div>
 
-                <div id="bottom-footer" class="row text-center align-items-center">
+                <div id="bottom-footer" class="row text-white text-center align-items-center">
 
-                    <div>
-                        <p>asdadadsadadada</p>
+                    <div class="pt-5 pb-5">
+                        <p>Copyright Your Website 2019</p>
                     </div>
                     
 

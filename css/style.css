@@ -19,14 +19,68 @@ li {
     margin-bottom: 50px;
     color: white;
     background-color: #009688;
-    height: 500px;
 }
 
-.card-container {
-    border: 5px solid white;
+/* .card-container {
     background-color: green;
     height: 200px;
 
+} */
+
+.logo {
+    width: 20rem;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.hr-star {
+    width: 20%;
+    height: 3px;
+    border-radius: 5px;
+
+}
+
+img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.bg-white {
+    background-color: white;
+
+}
+
+.bg-black {
+    background-color: black;
+
+}
+
+.star-icon {
+    font-size: 2rem;
+}
+
+.star {
+    width: 10%;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.bg-green-btn {
+    background-color: #009688;
+    color: white;
+}
+
+#start-bootstrap {
+    text-decoration: none;
+    color: #009688;
 }
 
 #portfolio {
@@ -40,6 +94,26 @@ li {
 }
 .row > .white-button {
     justify-content: center;
+}
+
+.form-control {
+    padding: 0;
+    padding-bottom: 10px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.form-floating>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 0%;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity .1s ease-in-out,transform .1s ease-in-out;
 }
 
 .form-bar {
@@ -58,6 +132,17 @@ li {
     background-color: #009688;
 }
 
+.single-icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.icon-font {
+    width: 25px;
+    font-size: 1.5rem;
+}
+
 #form {
     padding-bottom: 20px;
 }
@@ -67,11 +152,14 @@ li {
 }
 
 #upper-footer {
-    background-color: gray;
-    height: 200px;
+    background-color: rgb(58, 84, 109);
+}
+
+.navbar {
+    background-color: rgb(44, 62, 80);
 }
 
 #bottom-footer {
-    background-color: blue;
-    height: 100px;
+    background-color: rgb(44, 62, 80);
 }
+
